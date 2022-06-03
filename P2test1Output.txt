@@ -1,0 +1,17 @@
+
+Point REJECTED: (p_p, -1, -20)
+Point REJECTED: (p, 7, -8)
+Duplicate Points:
+SkipList Dump:
+level: 1 Value: null
+The SkipList's Size is: 0
+QuadTree Dump:
+Node at 0, 0, 1024: Empty
+QuadTree Size: 1 QuadTree Nodes Printed.
+Point Not Found: p_p
+point Not Removed: p_p
+Point Rejected: (1, -1)
+point Not Found: (1, 1)
+Points Intersecting Region: (-5, -5, 20, 20)
+1 QuadTree Nodes Visited
+Rectangle Rejected: (5, 5, 4, -2)

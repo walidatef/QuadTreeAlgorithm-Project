@@ -1,0 +1,50 @@
+Point Inserted: (p_p, 1, 20)
+Point Inserted: (p, 10, 30)
+Point Inserted: (p_42, 1, 20)
+Point Inserted: (far_point, 200, 200)
+SkipList Dump:
+level: 3 Value: null
+level: 2 Value: (far_point, 200, 200)
+level: 3 Value: (p, 10, 30)
+level: 2 Value: (p_42, 1, 20)
+level: 1 Value: (p_p, 1, 20)
+The SkipList's Size is: 4
+QuadTree Dump:
+Node at 0, 0, 1024: Internal
+  Node at 0, 0, 512: Internal
+    Node at 0, 0, 256: Internal
+      Node at 0, 0, 128:
+      (p_p, 1, 20)
+      (p, 10, 30)
+      (p_42, 1, 20)
+      Node at 128, 0, 128: Empty
+      Node at 0, 128, 128: Empty
+      Node at 128, 128, 128:
+      (far_point, 200, 200)
+    Node at 256, 0, 256: Empty
+    Node at 0, 256, 256: Empty
+    Node at 256, 256, 256: Empty
+  Node at 512, 0, 512: Empty
+  Node at 0, 512, 512: Empty
+  Node at 512, 512, 512: Empty
+QuadTree Size: 13 QuadTree Nodes Printed.
+Duplicate Points:
+(1, 20)
+Point Found (p_p, 1, 20)
+Points Intersecting Region: (0, 0, 25, 25)
+Point Found: (p_p, 1, 20)
+Point Found: (p_42, 1, 20)
+4 QuadTree Nodes Visited
+Point (p_p, 1, 20) Removed
+Point (p, 10, 30) Removed
+Duplicate Points:
+SkipList Dump:
+level: 3 Value: null
+level: 2 Value: (far_point, 200, 200)
+level: 2 Value: (p_42, 1, 20)
+The SkipList's Size is: 2
+QuadTree Dump:
+Node at 0, 0, 1024:
+(far_point, 200, 200)
+(p_42, 1, 20)
+QuadTree Size: 1 QuadTree Nodes Printed.
